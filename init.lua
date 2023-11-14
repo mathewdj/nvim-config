@@ -47,7 +47,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
-	"https://github.com/bluz71/vim-nightfly-colors",
-	"https://github.com/vim-airline/vim-airline",
+    { "bluz71/vim-nightfly-colors", name = "nightfly", lazy = false, priority = 1000 },
+    "https://github.com/vim-airline/vim-airline",
 	"https://github.com/preservim/nerdtree"
 })
+
+vim.cmd [[colorscheme nightfly]]
+
