@@ -1,5 +1,4 @@
 local opt = vim.opt 
---opt.relativenumber = true
 opt.number = true
 
 opt.tabstop = 4
@@ -14,11 +13,6 @@ opt.ignorecase = true
 opt.smartcase = true
 
 opt.cursorline = true
-
--- appearance
---opt.termguicolors = true
---opt.background = "dark"
---opt.signcolumn = "yes"
 
 -- backspace
 opt.backspace = "indent,eol,start"
