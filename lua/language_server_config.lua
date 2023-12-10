@@ -6,6 +6,7 @@ lspconfig.pyright.setup {}
 lspconfig.tsserver.setup {}
 lspconfig.kotlin_language_server.setup{}
 lspconfig.ansiblels.setup{}
+lspconfig.marksman.setup{}
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
