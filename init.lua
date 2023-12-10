@@ -1,3 +1,4 @@
+
 local opt = vim.opt 
 opt.number = true
 
@@ -71,8 +72,12 @@ require("lazy").setup({
             indent = { enable = true },  
             })
         end
-    }}
+    }},
+    {
+	"neovim/nvim-lspconfig"
+    }
 })
 
 vim.cmd [[colorscheme nightfly]]
 
+require('language_server_config')
