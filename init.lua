@@ -1,4 +1,6 @@
 local opt = vim.opt 
+opt.relativenumber = true
+
 opt.number = true
 
 opt.tabstop = 4
@@ -18,7 +20,7 @@ opt.cursorline = true
 opt.backspace = "indent,eol,start"
 
 -- clipboard
-opt.clipboard:append("unnamedplus")
+--opt.clipboard:append("unnamedplus")
 
 -- split windows
 opt.splitright = true
