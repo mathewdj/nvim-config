@@ -1,4 +1,3 @@
-
 local opt = vim.opt 
 opt.number = true
 
@@ -81,3 +80,4 @@ require("lazy").setup({
 vim.cmd [[colorscheme nightfly]]
 
 require('language_server_config')
+require('nvim_tree_config')
