@@ -20,7 +20,7 @@ opt.cursorline = true
 opt.backspace = "indent,eol,start"
 
 -- clipboard
---opt.clipboard:append("unnamedplus")
+opt.clipboard:append("unnamedplus")
 
 -- split windows
 opt.splitright = true
@@ -30,8 +30,6 @@ opt.splitbelow = true
 opt.iskeyword:append("-")
 
 require('wing.lazy')
-
-vim.cmd [[colorscheme nightfly]]
 
 require('language_server_config')
 require('nvim_tree_config')
