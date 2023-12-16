@@ -26,5 +26,3 @@ opt.splitbelow = true
 
 -- Allow - to be part of a word
 opt.iskeyword:append("-")
-
-
