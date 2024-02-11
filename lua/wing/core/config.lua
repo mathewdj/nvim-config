@@ -23,4 +23,4 @@ opt.clipboard:append("unnamed")
 opt.iskeyword:append("-")
 
 -- Allow mouse
-#opt.mouse="a"
+--#opt.mouse="a"
