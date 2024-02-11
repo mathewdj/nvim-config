@@ -12,6 +12,7 @@ return {
 					"vimdoc",
 					"query",
 					"javascript",
+                    "json",
 					"html",
 					"python",
 					"kotlin",
